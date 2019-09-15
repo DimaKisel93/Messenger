@@ -1,0 +1,50 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.config__form {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,235,214,0.9752275910364145) 0%, rgba(0,212,255,1) 100%);
+  width: 900px;
+  height: 650px;
+}
+
+.config__setting_block {
+  margin-bottom: 15px;
+}
+
+.config__title {
+  display: inline-block;
+  width: 80px;
+
+}
+
+.config__ui {
+  display: flex;
+  margin-bottom: 15px;
+
+}
+
+.config__checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.config__checkbox_item {
+  display: flex;
+}
+
+#config__code {
+  width: 400px;
+  margin-left: 50px;
+  height: 400px;
+}
+
+.config__wrap {
+  display: flex;
+}

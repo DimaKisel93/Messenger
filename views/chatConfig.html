@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat configuration</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/chatConfig.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="config">
+        <form class="config__form" id="config__form">
+            <div class="config__setting">
+                <div class="config__setting_block">
+                    <div class="config__title">Chat title</div>
+                    <input type="text" class="config__input_title" id="chatTitle">
+                </div>
+                <div class="config__setting_block">
+                    <div class="config__title">Bot name</div>
+                    <input type="text" class="config__input_name" id="botName">
+                </div>
+                <div class="config__setting_block">
+                    <div class="config__title">Chat URL</div>
+                    <input type="text" class="config__input_url" id="chatUrl">
+                </div>
+                <div class="config__setting_block">
+                    <div class="config__title">CSS Class</div>
+                    <input type="text" class="config__input_css" id="cssClass">
+                </div>
+                <div class="config__setting_block">
+                    <label class="config__title">Position</label>
+                    <select class="config__input" id="position" name="">
+                        <option id="right" value="right">right</option>
+                        <option id="left" value="left">left</option>
+                    </select>
+                </div>
+                <div class="config__ui">
+                    <div class="config__title">
+                        <label class="config__label">UI</label>
+                    </div>
+                    <div class="config__checkbox">
+                        <div class="config__checkbox_item">
+                            <input type="checkbox" id="allowMinimize">
+                            <label class="config__label">Allow to minimize</label>
+                        </div>
+                        <div class="config__checkbox_item">
+                            <input type="checkbox" id="allowDrag">
+                            <label class="config__label">Allow drag</label>
+                        </div>
+                        <div class="config__checkbox_item">
+                            <input type="checkbox" id="requireName">
+                            <label class="config__label">Require name</label>
+                        </div>
+                        <div class="config__checkbox_item">
+                            <input type="checkbox" id="showDateTime">
+                            <label class="config__label">Show date/time</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="config__setting_block">
+                    <div class="config__title">Network</div>
+                    <input type="radio" class="config__radio" name="network" id="XHR">
+                    <label class="config__label">XHR</label>
+                    <input type="radio" class="config__radio" name="network" id="fetch">
+                    <label class="config__label">fetch</label>
+                </div>
+            </div>
+            <div class="config__wrap">
+                <span>Use next code :</span>
+                <div class="config__code" id="config__code"></div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/javascripts/chatConfig.js"></script>
+</body>
+</html>
